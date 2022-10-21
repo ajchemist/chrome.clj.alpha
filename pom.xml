@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>jar</packaging>
+  <groupId>io.github.ajchemist</groupId>
+  <artifactId>chrome</artifactId>
+  <version>2022.294.11786</version>
+  <name>chrome</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>clj-chrome-devtools</groupId>
+      <artifactId>clj-chrome-devtools</artifactId>
+      <version>20220405</version>
+    </dependency>
+    <dependency>
+      <groupId>etaoin</groupId>
+      <artifactId>etaoin</artifactId>
+      <version>1.0.38</version>
+    </dependency>
+    <dependency>
+      <groupId>me.raynes</groupId>
+      <artifactId>conch</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src/core</sourceDirectory>
+  </build>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+  </repositories>
+  <scm>
+    <url>https://github.com/ajchemist/chrome</url>
+  </scm>
+</project>
