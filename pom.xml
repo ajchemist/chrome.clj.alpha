@@ -3,24 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <packaging>jar</packaging>
   <groupId>io.github.ajchemist</groupId>
-  <artifactId>chrome</artifactId>
-  <version>2022.294.11786</version>
-  <name>chrome</name>
+  <artifactId>chrome.clj.alpha</artifactId>
+  <version>2023.41.17785</version>
+  <name>chrome.clj.alpha</name>
   <dependencies>
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>clojure</artifactId>
       <version>1.11.1</version>
-    </dependency>
-    <dependency>
-      <groupId>clj-chrome-devtools</groupId>
-      <artifactId>clj-chrome-devtools</artifactId>
-      <version>20220405</version>
-    </dependency>
-    <dependency>
-      <groupId>etaoin</groupId>
-      <artifactId>etaoin</artifactId>
-      <version>1.0.38</version>
     </dependency>
     <dependency>
       <groupId>me.raynes</groupId>
@@ -38,6 +28,6 @@
     </repository>
   </repositories>
   <scm>
-    <url>https://github.com/ajchemist/chrome</url>
+    <url>https://github.com/ajchemist/chrome.clj.alpha</url>
   </scm>
 </project>
