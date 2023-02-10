@@ -3,9 +3,7 @@
 
  :deps
  {
-  clj-chrome-devtools/clj-chrome-devtools {:mvn/version "20220405"}
-  etaoin/etaoin                           {:mvn/version "1.0.38"}
-  me.raynes/conch                         {:mvn/version "0.8.0"}
+  me.raynes/conch {:mvn/version "0.8.0"}
   }
 
 
@@ -14,6 +12,8 @@
   :provided
   {:extra-deps
    {
+    clj-chrome-devtools/clj-chrome-devtools {:mvn/version "20220405"}
+    etaoin/etaoin                           {:mvn/version "1.0.38"}
     }}
 
 

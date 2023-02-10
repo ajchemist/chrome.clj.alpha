@@ -1,7 +1,7 @@
-(ns io.github.ajchemist.chrome.alpha-test
+(ns ajchemist.chrome.alpha-test
   (:require
    [clojure.test :as test :refer [deftest is are testing]]
-   [io.github.ajchemist.chrome.alpha :as chrome]
+   [ajchemist.chrome.alpha :as chrome]
    )
   (:import
    java.nio.file.Files

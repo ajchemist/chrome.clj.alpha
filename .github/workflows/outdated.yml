@@ -15,8 +15,6 @@ on:
 
 
 env:
-  clojure-cli: latest
-  java-version: "17"
 
 
 jobs:

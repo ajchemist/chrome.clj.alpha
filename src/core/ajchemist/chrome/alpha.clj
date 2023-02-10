@@ -1,9 +1,9 @@
-(ns io.github.ajchemist.chrome.alpha
+(ns ajchemist.chrome.alpha
   (:require
    [clojure.string :as str]
    [clojure.java.io :as jio]
    [me.raynes.conch.low-level :as conch]
-   [io.github.ajchemist.chrome.alpha.util :as util]
+   [ajchemist.chrome.alpha.util :as util]
    ))
 
 

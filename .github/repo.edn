@@ -1,6 +1,6 @@
 {
  :org        ""
- :repository "ajchemist/chrome"
+ :repository "ajchemist/chrome.clj.alpha"
 
  :github.token/pass-name "github.com/tokens/ajchemist"
  }

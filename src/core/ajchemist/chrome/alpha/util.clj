@@ -1,4 +1,4 @@
-(ns io.github.ajchemist.chrome.alpha.util
+(ns ajchemist.chrome.alpha.util
   (:require
    [clojure.string :as str]
    ))
